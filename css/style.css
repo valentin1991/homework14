@@ -22,6 +22,7 @@ input{
 }
 
 .informmessage{
+
   margin-top: 10px;
   padding: 10px 0px;
   border-radius: 5px;
@@ -34,6 +35,9 @@ input{
 
 }
 
-.informmessage > p {
-  te
+#button:hover{
+  cursor:pointer;
+  background-color:#9c6565;
+  color: #ece2e2;
+  border: solid #942d3c;
 }
