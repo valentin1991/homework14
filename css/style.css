@@ -1,0 +1,39 @@
+#purejava {
+	display: inline-block;
+  }
+
+input{
+	padding: 4px 15px 4px 5px;
+  border-radius: 5px;
+  border: solid silver;
+}
+
+#button{
+	display: inline-block;
+	background-color:#e6e9ec;
+	color:#942d3c;
+	border-radius: 5px;
+  border: solid silver;
+	text-align:center;
+	margin-top:2px;
+	padding: 5px 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.informmessage{
+  margin-top: 10px;
+  padding: 10px 0px;
+  border-radius: 5px;
+  border: solid silver;
+  width: 200px;
+  background-color:#e6e9ec;
+  color: #6b6969;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.informmessage > p {
+  te
+}
