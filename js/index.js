@@ -1,11 +1,18 @@
 
-function showlist(){
-  document.getElementById('informmessage').style.display='block';
-  setTimeout(function() {document.getElementById('informmessage').style.display='none'}, 1500);
-}
+let i = 1;
+let objective = '';
+
 
 function addline(){
-  var objective = document.getElementById('object').;
-  console.log(objective);
-  document.getElementById('list').innerHTML += objective + "<br>";
+  document.getElementById('informmessage').style.display='block';
+  setTimeout(function() {document.getElementById('informmessage').style.display='none'}, 1500);
+
+  objective += "Задание"+ i + ": " + document.getElementById('object').value + "<br>";
+  i += 1;
+}
+
+function showlist(){
+  document.getElementById('list').style.display='block';
+  document.getElementById('list').innerHTML = objective;
+
 }
