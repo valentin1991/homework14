@@ -31,6 +31,7 @@ input{
   color: #6b6969;
   font-weight: bold;
   text-align: center;
+  display: none;
 
 }
 
@@ -39,8 +40,4 @@ input{
   background-color:#9c6565;
   color: #ece2e2;
   border: solid #942d3c;
-}
-
-p{
-  display: none;
 }
